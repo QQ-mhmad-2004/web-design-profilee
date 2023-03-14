@@ -93,6 +93,7 @@ body {
 }
 
 .haeder {
+    padding: 3em 0em;
     width: 100%;
     height: 100vh;
 }
@@ -104,7 +105,6 @@ body {
     border-radius: 70%;
     border: #4F5657 solid 2px;
     margin: auto;
-    margin-top: 6em;
 }
 
 .img1>img {
@@ -131,21 +131,22 @@ body {
     color: #d3d3d3;
 }
 
-.apout {
+.about {
+    padding: 4em 0em;
     width: 86%;
-    height: 50em;
+    height: 30em;
     margin: auto;
     color: #d2d2d2;
 }
 
-.apout>h1 {
+.about h1 {
     text-align: center;
     margin-bottom: 1em;
 }
 
 .apoutm p {
-    width: 90%;
-    /* text-align: left; */
+    width: 95%;
+    text-align: center;
     line-height: 2.3em;
     font-size: 1.1em;
     letter-spacing: 2px;
@@ -153,7 +154,7 @@ body {
 
 .skils {
     width: 100%;
-    margin-top: 6em;
+    padding: 5em 0em;
     text-align: center;
 }
 
@@ -225,18 +226,19 @@ body {
 
 .responsev {
     width: 100%;
-    margin-bottom: 10em;
+    padding: 4em 0em;
+    /* margin-bottom: 10em; */
     color: #d2d2d2;
 }
 
-.responsev>h1 {
+.responsev h1 {
     text-align: center;
 }
 
 .cardres {
     width: 87%;
     margin: auto;
-    margin-top: 5em;
+    /* margin-top: 5em; */
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -293,7 +295,7 @@ body {
     width: 100%;
 }
 
-.taoasl>h1 {
+.taoasl h1 {
     color: #c7c7c7;
     text-align: center;
 }
@@ -369,7 +371,6 @@ body {
 }
 
 @media (max-width: 1202px) {
-
     /* .imgg {
         width: 40%;
         margin: auto;
@@ -385,7 +386,6 @@ body {
     .card {
         width: 48%;
     }
-
     .imgg {
         width: 40%;
         margin: auto;
@@ -396,7 +396,6 @@ body {
     .container {
         width: 80%;
     }
-
     /* .card {
         width: 47%;
     } */
@@ -406,21 +405,17 @@ body {
     .container {
         width: 75%;
     }
-
     .link-img {
         display: flex;
         flex-direction: column-reverse;
     }
-
     .imgh {
         width: 100%;
         margin: auto;
     }
-
     .link {
         width: 100%;
     }
-
     .skils2 {
         width: 86%;
     }
@@ -431,43 +426,34 @@ body {
         transform: translatex(-200%);
         z-index: 2;
     }
-
     .navbaropnn {
         display: block;
     }
-
     .logo {
         /* margin-top: 4em; */
     }
-
     .navbaropn {
         transform: none;
         z-index: 1;
     }
-
     .haeder {
         height: 40em;
     }
-
     .container {
         width: 95%;
         margin: auto;
         float: none;
     }
-
     .skils2 {
         display: flex;
         flex-direction: column;
     }
-
     .cardres {
         margin-top: 1em;
     }
-
     .skils3 {
         width: 100%;
     }
-
     /* .card {
         width: 80%;
         margin: auto;
@@ -476,35 +462,28 @@ body {
     .card-img img {
         width: 70%;
     }
-
     .responsev {
         margin-top: 6em;
     }
-
     .apoutm {
         width: 100%;
         margin-top: 1em;
     }
-
     .apoutm>p {
         width: 80%;
         margin: auto;
         text-align: center;
     }
-
     .imgg {
         width: 80%;
         margin: auto;
     }
-
     .nametag>button {
         width: 40%;
     }
-
     .opm {
         transform: translateX(0px);
     }
-
     .nametag>button {
         width: 60%;
         padding: .5em;
@@ -516,22 +495,18 @@ body {
     .container {
         width: 100%;
     }
-
     .naem {
         width: 70%;
     }
-
     .cardres {
         display: flex;
         flex-direction: column;
     }
-
     .card {
         width: 90%;
         margin: auto;
         margin-top: 3em;
     }
-
     .img1 {
         width: 56%;
         margin: auto;
@@ -540,7 +515,7 @@ body {
 }
 
 .none {
-    transform: translateY(249px);
+    transform: translateY(349px);
     opacity: 0;
     transition: 1s;
 }
@@ -549,5 +524,5 @@ body {
     height: 100%;
     transform: translate(0px);
     opacity: 1;
-    transition: 1s;
+    transition: 1.6s;
 }
