@@ -1,42 +1,30 @@
 let navbar = document.getElementById('navbar');
 let navbaropn = document.getElementById('button');
 let none = document.querySelectorAll('.none');
+let remove = document.getElementById('remove');
+let mnss = document.getElementById('back')
 
-navbaropn.onclick = function() {
+navbaropn.onclick = function () {
     navbarAddClass()
 };
 
 
 function navbarAddClass() {
-    navbar.classList.add('opm')
+    navbar.classList.add('opm');;
+    mnss.style.display = 'block';
 }
 
 
-let remove = document.getElementById('remove');
 
-remove.onclick = function() {
+remove.onclick = function () {
     clicknav()
 };
 
 
 function clicknav() {
     navbar.classList.remove('opm')
+    mnss.style.display = '';
 };
-
-
-// window.addEventListener('scroll', scrollanimation);
-
-// function scrollanimation() {
-//     for (let i = 0; i < none.length; i++) {
-//         if (none[i].getBoundingClientRect().top < window.innerHeight - 10) {
-//             none[i].classList.add('block')
-//         } else {
-//             none[i].classList.remove('block')
-//         }
-//     }
-// };
-
-
 
 
 window.addEventListener('scroll', animateOnScroll);
